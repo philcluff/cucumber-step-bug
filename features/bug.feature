@@ -4,9 +4,9 @@ Feature: A
 
   @passing
   Scenario: POC
-    Given kittens
-    And foo "foo"
+    Given replacement is moose
+    And the argument is set to "foo"
 
   @broken
   Scenario: POC 2
-    Given bar
+    Given this step changes replacement and calls the other step
