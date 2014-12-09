@@ -1,4 +1,4 @@
-Demonstrates some odd behaviour in cucummber's step reuse when parameters to a reused step are re-written across scenarios.
+Demonstrates some odd behaviour in cucumber's step reuse when parameters to a reused step are re-written across scenarios.
 
 It boils down to:
 
