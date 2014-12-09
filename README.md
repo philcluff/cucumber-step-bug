@@ -5,7 +5,7 @@ It boils down to:
 * I have a step which takes a parameter
 * I call that step in Scenario 1 with parameter "foo"
  * During that step. I rewrite the value of the argument it receives to something else. Say "moose"
-* In Scenario 2, I have a step which calls the origional step, again with the value "foo"
+* In Scenario 2, I have a step which calls the original step, again with the value "foo"
  * That step receives the ***rewritten*** argument from ***after*** the step was called the first time. IE "moose", not "foo"
 
 To run the example:
